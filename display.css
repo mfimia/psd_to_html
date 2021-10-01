@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+header {background-image: url(images/bgk-header.png);}
+footer {background-image: url(images/bgk-footer.png);}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
