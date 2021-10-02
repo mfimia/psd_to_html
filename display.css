@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 
-header {background-image: url(images/bgk-header.png);}
+header, #teams {background-image: url(images/bgk-header.png);}
 footer {background-image: url(images/bgk-footer.png);}
+#our-story-bot{background-image: url(images/bgk-middle.png);}
 
 body, html {
     padding: 0;
