@@ -8,6 +8,7 @@
 header h1 {
     color: rgba(255,255,255,255);
     font-family: 'Playfair Display', serif;
+    font-size: 32px;
 }
 
 footer, header, #teams, #our-story-bot {
@@ -20,7 +21,7 @@ footer, header, #teams, #our-story-bot {
     font-size: 14px;
 }
 
-#top-menu span{
+#top-menu span {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 13px;
@@ -40,7 +41,7 @@ footer, header, #teams, #our-story-bot {
     color: rgba(65,61,75,255);
 }
 
-#bottom-header h4, #our-story-text h4 {
+#bottom-header h4, #our-story-text h4, #teams-bot h4, #submit {
     font-family: 'Hammersmith One', sans-serif;
     color: rgba(0,224,208,255);
     font-size: 16px;
@@ -72,4 +73,69 @@ footer, header, #teams, #our-story-bot {
     font-weight: 300;
     font-size: 14px;
     color: rgba(51,51,51,255);
+}
+
+#teams h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#teams p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: rgba(249,249,249,255);
+    font-size: 14px;
+}
+
+.emp-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: rgba(250,250,250,255);
+}
+
+.emp-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+#teams-bot p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(243,243,243,255);
+}
+
+#clients h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: rgba(65,61,75,255);
+}
+
+#name, #email, #subject, #message {
+    color: rgba(65,61,75,255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#contact-sub h4, #our-studio h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+#newsletter, #contact-phone p, #contact-location p, #tajam-info p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#bottom-footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
