@@ -13,3 +13,63 @@ header h1 {
 footer, header, #teams, #our-story-bot {
     color: rgba(255,255,255,255);
 }
+
+#bottom-header p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#top-menu span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+#our-story-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(65,61,75,255);
+}
+
+#our-story-text h2, #expertise-top h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(65,61,75,255);
+}
+
+#bottom-header h4, #our-story-text h4 {
+    font-family: 'Hammersmith One', sans-serif;
+    color: rgba(0,224,208,255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#our-story-bot h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+#expertise-top p {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(47,45,53,255);
+}
+
+#expertise-bot h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: rgba(65,61,75,255);
+}
+
+#expertise-bot p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(51,51,51,255);
+}
