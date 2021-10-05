@@ -64,3 +64,30 @@ body, html {
 header {
     height: 670px;
 }
+
+#our-story-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+#img-container{
+    border: 1px solid black;
+    width: 40%;
+    display:flex;
+    justify-content: center;
+}
+
+
+
+#our-story-text {
+    width: 60%;
+    border: 1px solid black;
+}
+
+#our-story-text h4 {
+    border: 1px solid rgba(0, 224, 208, 255);
+    padding: 10px 14px;
+    border-radius: 1px;
+    display: inline-block;
+}
