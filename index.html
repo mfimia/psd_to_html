@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tajam homepage</title>
     <link rel="stylesheet" href="text.css" />
     <link rel="stylesheet" href="display.css" />
     <link
@@ -15,39 +15,42 @@
 
   <body>
     <header>
-      <div id="top-header">
-        <div class="tajam-logo">
-          <img
-            src="images/png/logo.png"
-            alt="Tajam logo"
-            title="Tajam's homepage"
-          />
-          <span>tajam</span>
+      <div id="all-content-header">
+        <div id="top-header">
+          <div class="tajam-logo">
+            <img
+              src="images/png/logo.png"
+              alt="Tajam logo"
+              title="Tajam's homepage"
+            />
+            <span>tajam</span>
+          </div>
+          <nav id="top-menu">
+            <span>HOME</span>
+            <span>ABOUT</span>
+            <span>EXPERTISE</span>
+            <span>TEAMS</span>
+            <span>WORKS</span>
+            <span>PEOPLE SAY</span>
+            <span>CONTACT</span>
+          </nav>
         </div>
-        <nav id="top-menu">
-          <span>HOME</span>
-          <span>ABOUT</span>
-          <span>EXPERTISE</span>
-          <span>TEAMS</span>
-          <span>WORKS</span>
-          <span>PEOPLE SAY</span>
-          <span>CONTACT</span>
-        </nav>
-      </div>
-      <div id="bottom-header">
-        <h1>We Are Awesome Creative Agency</h1>
-        <hr />
-        <p>
-          This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-          velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-          nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed
-          odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-          ipsum velit.
-        </p>
-        <h4>LEARN MORE</h4>
+        <div id="bottom-header">
+          <h1>We Are Awesome Creative Agency</h1>
+          <hr />
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+            Morbi accumsan ipsum velit.
+          </p>
+          <h4>LEARN MORE</h4>
+        </div>
       </div>
     </header>
     <main>
+      <!-- <div id="all-content-top-main"> -->
       <section id="our-story">
         <div id="our-story-top">
           <img src="/images/png/logo-big.png" alt="tajam large logo" />
@@ -66,9 +69,12 @@
             <h4>LEARN MORE</h4>
           </div>
         </div>
+        <!-- </div> -->
         <div id="our-story-bot">
-          <img src="/images/png/play.png" alt="Play button" />
-          <h4>WATCH OUR STORY</h4>
+          <div id="all-content-our-story-bot">
+            <img src="/images/png/play.png" alt="Play button" />
+            <h4>WATCH OUR STORY</h4>
+          </div>
         </div>
       </section>
       <section id="expertise">
@@ -148,34 +154,36 @@
         </div>
       </section>
       <section id="teams">
-        <h2>MEET OUR AMAZING TEAM</h2>
-        <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-        <hr />
-        <div id="team-members">
-          <div>
-            <div class="team-pic"></div>
-            <p class="emp-name">SEMF UCUK</p>
-            <p class="emp-title">CEO & FOUNDER</p>
+        <div id="all-content-teams">
+          <h2>MEET OUR AMAZING TEAM</h2>
+          <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+          <hr />
+          <div id="team-members">
+            <div>
+              <div class="team-pic"></div>
+              <p class="emp-name">SEMF UCUK</p>
+              <p class="emp-title">CEO & FOUNDER</p>
+            </div>
+            <div>
+              <div class="team-pic"></div>
+              <p class="emp-name">DIK ADALIN</p>
+              <p class="emp-title">ENGINEERING</p>
+            </div>
+            <div>
+              <div class="team-pic"></div>
+              <p class="emp-name">JENG KOL</p>
+              <p class="emp-title">DESIGNER</p>
+            </div>
+            <div>
+              <div class="team-pic"></div>
+              <p class="emp-name">PET ROMAK</p>
+              <p class="emp-title">MARKETING</p>
+            </div>
           </div>
-          <div>
-            <div class="team-pic"></div>
-            <p class="emp-name">DIK ADALIN</p>
-            <p class="emp-title">ENGINEERING</p>
+          <div id="teams-bot">
+            <p>Become part of our dream team, let’s join us!</p>
+            <h4>WE ARE HIRING</h4>
           </div>
-          <div>
-            <div class="team-pic"></div>
-            <p class="emp-name">JENG KOL</p>
-            <p class="emp-title">DESIGNER</p>
-          </div>
-          <div>
-            <div class="team-pic"></div>
-            <p class="emp-name">PET ROMAK</p>
-            <p class="emp-title">MARKETING</p>
-          </div>
-        </div>
-        <div id="teams-bot">
-          <p>Become part of our dream team, let’s join us!</p>
-          <h4>WE ARE HIRING</h4>
         </div>
       </section>
       <section id="clients">
@@ -224,65 +232,67 @@
       </section>
     </main>
     <footer>
-      <div id="top-footer">
-        <section id="tajam-info">
-          <div class="tajam-logo">
-            <img
-              src="images/png/logo.png"
-              alt="Tajam logo"
-              title="Tajam's homepage"
-            />
-            <span>tajam</span>
-          </div>
-          <p>
-            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-            sem nibh elit. Duis sed odio sit amet auctror a ornare odio non
-            mauris vitae erat in elit
-          </p>
-        </section>
-        <section id="our-studio">
-          <h4>OUR STUDIO</h4>
-          <div id="contact-location">
-            <img src="/images/png/big104.png" alt="Location icon" />
+      <div id="all-content-footer">
+        <div id="top-footer">
+          <section id="tajam-info">
+            <div class="tajam-logo">
+              <img
+                src="images/png/logo.png"
+                alt="Tajam logo"
+                title="Tajam's homepage"
+              />
+              <span>tajam</span>
+            </div>
             <p>
-              Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres -
-              Jakarta Barat 11480 - Indonesia
+              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+              sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare
+              odio non mauris vitae erat in elit
             </p>
-          </div>
-          <div id="contact-phone">
-            <img src="/images/png/phone351.png" alt="Telephone icon" />
-            <p>(+62) 21-2224 3333</p>
-          </div>
-        </section>
-        <section id="contact-sub">
-          <h4>STAY IN TOUCH</h4>
-          <form action="POST">
-            <input
-              id="newsletter"
-              type="text"
-              placeholder="Subscribe to our newsletter"
-            />
-            <button type="submit">
-              <img src="/images/png/paper122.png" alt="Stay in touch!" />
-            </button>
-          </form>
-          <div id="contact-socials">
-            <img src="/images/png/facebook.png" alt="Facebook" />
-            <img src="/images/png/twitter.png" alt="Twitter" />
-            <img src="/images/png/dribbble.png" alt="Basketball" />
-            <img src="/images/png/instagram.png" alt="Instagram" />
-            <img src="/images/png/gplus.png" alt="Google+" />
-            <img src="/images/png/youtube.png" alt="Youtube" />
-          </div>
-        </section>
-      </div>
-      <div id="bottom-footer">
-        <section id="bottom-links">
-          <span>HELP</span>
-          <span>TERMS & CONDITION</span>
-          <span>PRIVACY</span>
-        </section>
-        <p>Copyright © 2015 - Tajem Creative</p>
+          </section>
+          <section id="our-studio">
+            <h4>OUR STUDIO</h4>
+            <div id="contact-location">
+              <img src="/images/png/big104.png" alt="Location icon" />
+              <p>
+                Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres -
+                Jakarta Barat 11480 - Indonesia
+              </p>
+            </div>
+            <div id="contact-phone">
+              <img src="/images/png/phone351.png" alt="Telephone icon" />
+              <p>(+62) 21-2224 3333</p>
+            </div>
+          </section>
+          <section id="contact-sub">
+            <h4>STAY IN TOUCH</h4>
+            <form action="POST">
+              <input
+                id="newsletter"
+                type="text"
+                placeholder="Subscribe to our newsletter"
+              />
+              <button type="submit">
+                <img src="/images/png/paper122.png" alt="Stay in touch!" />
+              </button>
+            </form>
+            <div id="contact-socials">
+              <img src="/images/png/facebook.png" alt="Facebook" />
+              <img src="/images/png/twitter.png" alt="Twitter" />
+              <img src="/images/png/dribbble.png" alt="Basketball" />
+              <img src="/images/png/instagram.png" alt="Instagram" />
+              <img src="/images/png/gplus.png" alt="Google+" />
+              <img src="/images/png/youtube.png" alt="Youtube" />
+            </div>
+          </section>
+        </div>
+        <div id="bottom-footer">
+          <section id="bottom-links">
+            <span>HELP</span>
+            <span>TERMS & CONDITION</span>
+            <span>PRIVACY</span>
+          </section>
+          <p>Copyright © 2015 - Tajem Creative</p>
+        </div>
       </div>
     </footer>
   </body>
