@@ -35,6 +35,32 @@ body, html {
     align-items: center;
 }
 
-#top-menu span {
-    padding: 0 12px;
+#top-menu span {padding-left: 14px;}
+
+#bottom-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 155px;
+}
+
+#bottom-header p {
+    width: 80%;
+}
+
+#bottom-header hr {
+    width: 5%;
+    border: 1px rgba(0, 224, 208, 255) solid;
+    background-color: rgba(0, 224, 208, 255);
+}
+
+#bottom-header h4 {
+    border: 1px solid rgba(0, 224, 208, 255);
+    padding: 10px 14px;
+    border-radius: 1px;
+}
+
+header {
+    height: 670px;
 }
