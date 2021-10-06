@@ -190,3 +190,63 @@ header {height: 670px}
     padding-top: 35px;
 }
 
+#clients {
+    display: flex;
+    justify-content: space-between;
+    height: 685px;
+}
+
+#good-news, #good-news form {
+    display: flex;
+    flex-direction: column;
+}
+
+#good-news form {
+    justify-content: space-between;
+    height: 513px;
+}
+
+#good-news {
+    width: 500px;
+    height: 550px;
+}
+
+#zara-logo {
+    width: 162px;
+}
+
+#company-logos {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    height: 472px;
+}
+
+#logos-left, #logos-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#message {
+    height: 203px !important;
+}
+
+#name, #email, #subject, #message {
+    border: 1px lightgrey solid;
+    height: 48px;
+    text-indent: 15px;
+}
+
+#submit {
+    height: 43px !important;
+    width: 120px !important;
+    background-color: white;
+    /* border-color: rgba(0, 224, 208, 255) !important; */
+}
+
+/* #company-logos img {
+    display: block;
+} */
+
+
