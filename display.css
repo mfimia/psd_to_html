@@ -204,10 +204,11 @@ header {height: 670px}
 #good-news form {
     justify-content: space-between;
     height: 513px;
+    padding-top: 20px;
 }
 
 #good-news {
-    width: 500px;
+    width: 480px;
     height: 550px;
 }
 
@@ -216,7 +217,7 @@ header {height: 670px}
 }
 
 #company-logos {
-    width: 400px;
+    width: 380px;
     display: flex;
     justify-content: space-between;
     height: 472px;
@@ -238,11 +239,15 @@ header {height: 670px}
     text-indent: 15px;
 }
 
+#message {
+     padding-top:15px;
+}
+
 #submit {
     height: 43px !important;
     width: 120px !important;
     background-color: white;
-    /* border-color: rgba(0, 224, 208, 255) !important; */
+    border: 1px solid rgba(0, 224, 208, 255) !important;
 }
 
 /* #company-logos img {
