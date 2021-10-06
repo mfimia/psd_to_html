@@ -193,7 +193,8 @@ header {height: 670px}
 #clients {
     display: flex;
     justify-content: space-between;
-    height: 685px;
+    height: 660px;
+    align-items: center;
 }
 
 #good-news, #good-news form {
@@ -233,7 +234,7 @@ header {height: 670px}
     height: 203px !important;
 }
 
-#name, #email, #subject, #message {
+#name, #email, #subject, #message, #newsletter {
     border: 1px lightgrey solid;
     height: 48px;
     text-indent: 15px;
@@ -250,8 +251,79 @@ header {height: 670px}
     border: 1px solid rgba(0, 224, 208, 255) !important;
 }
 
+#top-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+/* #top-footer * {
+    border: white 1px solid;
+} */
+
+#top-footer section {
+    width: 30%;
+}
+
+#contact-location, #contact-phone {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    /* align-content: flex-start; */
+}
+
+#contact-location p, #contact-phone p {
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+#our-studio img {
+    width: 15px;
+    height: 20px;
+}
+
 /* #company-logos img {
     display: block;
 } */
 
+#newsletter {
+    background: none;
+    width: 200px;
+    text-indent: 10px;
+}
 
+footer button {
+    height: 48px;
+    width: 70px;
+    background-color: rgba(211, 211, 211, 0.493);
+    border: none;
+}
+
+#contact-sub form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-socials {
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    padding-top: 20px;
+}
+
+#bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 30px 0;
+}
+
+#bottom-links span {
+    display: block;
+}
+
+#bottom-links {
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+}
