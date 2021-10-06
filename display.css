@@ -45,9 +45,7 @@ body, html {
     padding-top: 155px;
 }
 
-#bottom-header p {
-    width: 80%;
-}
+#bottom-header p {width: 80%;}
 
 #bottom-header hr {
     width: 5%;
@@ -55,15 +53,14 @@ body, html {
     background-color: rgba(0, 224, 208, 255);
 }
 
-#bottom-header h4 {
+#bottom-header h4, #teams-bot h4 {
     border: 1px solid rgba(0, 224, 208, 255);
     padding: 10px 14px;
     border-radius: 1px;
+    display: inline-block;
 }
 
-header {
-    height: 670px;
-}
+header {height: 670px}
 
 #our-story-top {
     display: flex;
@@ -72,17 +69,32 @@ header {
 }
 
 #img-container{
-    border: 1px solid black;
-    width: 40%;
+    width: 45%;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
-
+#img-container img{
+    width: 235px;
+    height: 210px;
+}
 
 #our-story-text {
-    width: 60%;
-    border: 1px solid black;
+    width: 57%;
+}
+
+#our-story-bot {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+#all-content-our-story-bot {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #our-story-text h4 {
@@ -91,3 +103,90 @@ header {
     border-radius: 1px;
     display: inline-block;
 }
+
+#expertise {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#expertise-top hr, #all-content-teams hr {
+    width: 5%;
+    border: 1px lightgrey solid;
+    background-color: lightgrey;
+}
+
+#expertise-top {margin: 50px 0;}
+
+#expertise-panel-top, #expertise-panel-bot {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.expertise-container-box-mid {
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    
+}
+
+[class*="expertise-container-box"] {
+    width: 300px;
+    padding: 20px 30px;
+}
+
+#expertise-panel-top {
+    border-bottom: 1px solid lightgrey;
+}
+
+#all-content-teams {
+    text-align: center;
+}
+
+#team-members {
+    display: flex;
+    justify-content: space-around;
+    padding: 45px 0;
+}
+
+#team-members > div {
+    width: 220px;
+}
+
+.team-pic {
+    background-color: white;
+    height: 220px;
+}
+
+.team-name-container {
+    border: 1px solid grey;
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.team-name-container p {
+    margin: 0;
+    padding: 2px;
+}
+
+#teams-bot {
+    padding-bottom: 30px;
+}
+
+#teams-bot p {
+    padding: 0;
+    margin: 0;
+}
+
+#teams-top p {
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+#teams-top h2 {
+    margin-bottom: 6px;
+}
+
+#teams-top {
+    padding-top: 35px;
+}
+
