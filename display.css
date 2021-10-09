@@ -21,10 +21,17 @@ html {
 
 @media screen and (min-width: 1600px) {
   /* * {color: red;} */
-  html {
-    width: 1600px;
-    margin: 0 auto;
-  }
+
+  header,
+  #teams, 
+  
+  
+  footer ,
+  
+  
+  #our-story-bot {
+    background-size: cover;
+}
 }
 
 [id*="all-content-"],
