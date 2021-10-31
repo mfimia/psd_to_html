@@ -23,15 +23,11 @@ html {
   /* * {color: red;} */
 
   header,
-  #teams, 
-  
-  
-  footer ,
-  
-  
+  #teams,
+  footer,
   #our-story-bot {
     background-size: cover;
-}
+  }
 }
 
 [id*="all-content-"],
